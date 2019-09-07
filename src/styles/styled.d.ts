@@ -1,17 +1,24 @@
 // import original module declarations
-import "styled-components"
+import "styled-components";
 
 // and extend them!
 declare module "styled-components" {
   export interface DefaultTheme {
-    boxShadow: string
-    breakpoints: {}
+    boxShadow: string;
+    breakpoints: {
+      mobile: string;
+    };
     colors: {
-      main: string
-      sky: string
-    }
+      main: string;
+      background: string;
+      backgroundInverted: string;
+      text: string;
+      textInverse: string;
+      border: string;
+    };
     dimensions: {
-      navBarHeight: string
-    }
+      navBarHeight: string;
+      footerHeigth: string;
+    };
   }
 }

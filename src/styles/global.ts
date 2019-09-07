@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
     margin: 0;
     padding: 0;
     font-weight: 400;
@@ -17,6 +17,6 @@ const GlobalStyle = createGlobalStyle`
     font-size: 16px;
     letter-spacing: 1px;
   }
-`
+`;
 
-export default GlobalStyle
+export default GlobalStyle;
